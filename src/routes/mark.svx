@@ -1,0 +1,12 @@
+---
+title: My lovely article
+author: Dr. Fabuloso the Fabulous
+---
+
+<script>
+	let count = 0;
+</script>
+
+# {title} by {author}
+
+<button on:click={()=>count++}>{count}</button>
